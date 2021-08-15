@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		int N1, N2;
+		
+		N1 = sc.nextInt();
+		N2 = sc.nextInt();
+
+
+		if (N1 >  N2 && N1 % N2 ==  0) {
+			
+			System.out.println("Sao Multiplos");
+
+		}
+		
+		else if (N2 > N1  && N2 % N1 == 0){
+			
+			System.out.println("Sao Multiplos");
+		}
+			
+			else {
+			
+			System.out.println("Nao sao Multiplos");
+			
+			}
+
+			
+		sc.close();
+	}
+
+}

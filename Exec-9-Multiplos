@@ -12,17 +12,12 @@ public class Main {
 		N2 = sc.nextInt();
 
 
-		if (N1 >  N2 && N1 % N2 ==  0) {
+		if (N1 %  N2 == 0 || N2 % N1 ==  0) {
 			
 			System.out.println("Sao Multiplos");
+			
+		}
 
-		}
-		
-		else if (N2 > N1  && N2 % N1 == 0){
-			
-			System.out.println("Sao Multiplos");
-		}
-			
 			else {
 			
 			System.out.println("Nao sao Multiplos");
